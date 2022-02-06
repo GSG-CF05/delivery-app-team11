@@ -27,7 +27,7 @@
 Online application specialized in the delivery of orders from a coffee shop. Through it the customer can buy the coffee he wants from his place, With the availability of electronic payment services via Visa, MasterCard, or others.
 
 
-## How does this app work?
+## How does this delivary app work?
 - In the begining The user can see the landing page, it contains all categories of coffees that the shop sell.
 - Each category containes multiple items, and the price is listed under each item.
 - After selecting the order, the user press "+" and he will be taken to the product detail page.

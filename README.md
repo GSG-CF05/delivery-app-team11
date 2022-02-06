@@ -29,7 +29,7 @@ Online application specialized in the delivery of orders from a coffee shop. Thr
 
 ## How does this delivary app work?
 - In the begining The user can see the landing page, it contains all categories of coffees that the shop sell.
-- Each category containes multiple items, and the price is listed under each item.
+- Each category containes multiple items. and the price is listed under each item.
 - After selecting the order, the user press "+" and he will be taken to the product detail page.
 - This page contains product details in terms of ingredients and price, the user can then confirm his order from this page by clicking on "Add to card"
 - In the next page he will find his orders, and move to Payment Gateway.

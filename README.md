@@ -1,6 +1,6 @@
 # delivery-app-team11
 
-## You can check it out [HERE](link of the page)
+## You can check it out [HERE](https://gsg-cf05.github.io/delivery-app-team11/)
 
 ---
 

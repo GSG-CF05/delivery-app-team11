@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+*{
+    margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+.allpage{
+    height: 100vh;
+}
+.main-imge{
+background-image: url(../imges/Product\ Image.png);
+width: 426px;
+height: 406px;
+}
+.product-img{
+    width: 426px;
+height: 406px;
+}
+
+.amount{
+    width: 40px;
+    height: 120px;
+    margin-left: 70%;
+    margin-top: 35%;
+}
+.back{
+width: 32px;
+height: 32px;
+margin-top: 10%;
+margin-left: 7%;
+}

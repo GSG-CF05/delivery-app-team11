@@ -1,32 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
-*{
-    margin: 0px;
-padding: 0px;
-box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.allpage {
+  height: 100vh;
+}
+.main-imge {
+  background-image: url(../imges/Product\ Image.png);
+  width: 426px;
+  height: 406px;
+}
+.product-img {
+  width: 426px;
+  height: 406px;
+}
 
+.amount {
+  width: 40px;
+  height: 120px;
+  margin-left: 70%;
+  margin-top: 35%;
 }
-.allpage{
-    height: 100vh;
+.back {
+  width: 32px;
+  height: 32px;
+  margin-top: 10%;
+  margin-left: 7%;
 }
-.main-imge{
-background-image: url(../imges/Product\ Image.png);
-width: 426px;
-height: 406px;
-}
-.product-img{
-    width: 426px;
-height: 406px;
-}
+/* start product-details */
+.product-details {
+  width: 415px;
+  height: 413px;
+  padding: 5px;
 
-.amount{
-    width: 40px;
-    height: 120px;
-    margin-left: 70%;
-    margin-top: 35%;
+  border-radius: 5px;
+  margin: 0px;
 }
-.back{
-width: 32px;
-height: 32px;
-margin-top: 10%;
-margin-left: 7%;
+.name-and-price {
+  width: 311px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  margin: 28px 32px;
+}
+.name {
+  width: 182px;
+  height: 25px;
+  font-family: Readex Pro, sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #323232;
+}
+.price {
+  width: 96px;
+  height: 32px;
+  font-family: Readex Pro, sans-serif;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 400;
+  color: #323232;
+}
+.size #grande::after {
+  content: "";
+  width: 74px;
+  height: 5px;
+  position: absolute;
+  background: #b88af8;
+  bottom: 54px;
+  right: 0px;
+}
+#detail {
+  font-family: Readex Pro;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 24px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 190px;
+  top: 559px;
+
+  color: #323232;
+}
+.prosizes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 415px;
+  height: 69px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.prosizes p {
+  font-family: Readex Pro;
+  font-size: 17px;
+  line-height: 24px;
+}
+#grande {
+  width: 74px;
+  height: 24px;
+  color: #323232;
+  margin: 0px 32px;
+  position: relative;
+}
+.size2 {
+  width: 52px;
+  height: 24px;
+  font-weight: 300;
+  color: #c7c7cc;
+}
+.size3 {
+  width: 57px;
+  height: 24px;
+  font-weight: 300;
+  color: #ebebeb;
 }

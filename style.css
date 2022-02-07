@@ -85,3 +85,23 @@ span{
     background-color:#54B2CF ;
     
 }
+
+/* navbar */
+.navigation {
+    list-style: none;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: 1rem 3.5rem;
+    box-shadow: 1px 0px  rgba(0, 0, 0, 0.1);
+  }
+ 
+  
+  .navigation ul li {
+      list-style: none;
+    display: flex;
+    gap: 1.9rem;
+  }

@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Readex+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Readex+Pro:wght@200;400&display=swap");
+html {
+  font-size: 20px;
+}
+body {
+  margin: auto;
+  width: 90%;
+  height: 1000vh;
+}
+header {
+  display: flex;
+  /*flex-direction: row;*/
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10%;
+  padding-left: 10%;
+  width: 80%;
+  height: 5vh;
+}
+.backicon {
+  display: inline;
+  /*width: 6px;
+  height: 12px;*/
+}
+.titlepage {
+  /*justify-content: space-around;*/
+  /*display: flex;
+flex-direction: column;*/
+  /*text-align: center;
+align-items: center;
+padding: 0%;*/
+  padding-left: 27%;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Readex Pro", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 81px;
+  left: 24px;
+  top: 118px;
+  white-space: nowrap;
+}
+.discount1 {
+  display: inline-block;
+  width: 306px;
+  height: 81px;
+  left: 24px;
+  top: 118px;
+  background: #54b2cf;
+  border-radius: 16px;
+}
+.dis-1-title {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+  /*padding-top: 5%;*/
+}
+.dis-1-details {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.5rem;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+.discount2 {
+  display: inline-block;
+  width: 306px;
+  height: 81px;
+  left: 24px;
+  top: 118px;
+  background: #b88af8;
+  border-radius: 16px;
+}
+.dis-2-title {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+  /*padding-top: 5%;*/
+}
+.dis-2-details {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.5rem;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+}

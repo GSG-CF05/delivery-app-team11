@@ -29,3 +29,26 @@
     font-size: 17px;
     color    : #8e8e93;
 }
+
+/* tabs */
+.tabs{
+    display:flex;
+    gap: 10px;
+    padding: 1.2rem .5rem;
+}
+
+.tabs a{
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    min-width: 80px ;
+    padding: 0.5rem ;
+    font-size: .8rem;
+    color: #54B2CF;
+    background-color: #E4F3F7;
+}
+
+.tabs a:hover{
+    background-color:#54B2CF ;
+    color: #FFFFFF;
+}

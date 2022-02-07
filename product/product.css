@@ -118,3 +118,16 @@
   font-weight: 300;
   color: #ebebeb;
 }
+/* start describtion */
+.describtion{
+  width: 311px;
+  height: 84px;
+margin: 32px;
+}
+.describtion p{
+  font-family: Readex Pro;
+font-weight: 300;
+font-size: 15px;
+line-height: 22px;
+color: #8E8E93;
+}

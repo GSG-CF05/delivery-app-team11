@@ -119,15 +119,41 @@
   color: #ebebeb;
 }
 /* start describtion */
-.describtion{
+.describtion {
   width: 311px;
   height: 84px;
-margin: 32px;
+  margin: 32px;
 }
-.describtion p{
+.describtion p {
   font-family: Readex Pro;
-font-weight: 300;
-font-size: 15px;
-line-height: 22px;
-color: #8E8E93;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  color: #8e8e93;
+}
+/* start buttons */
+.buttons {
+  width: 360px;
+  height: 64px;
+  margin: 54px 36px;
+  display: flex;
+  justify-content: space-between;
+  /* align-content: center; */
+  padding: 10px;
+}
+.buttons img {
+  width: 64px;
+  height: 64px;
+}
+.buttons a {
+  width: 239px;
+  height: 64px;
+  color: #ffffff;
+  background: #323232;
+  border-radius: 64px;
+  font-family: Readex Pro;
+  font-size: 17px;
+  line-height: 24px;
+  text-decoration: none;
+  padding: 19px 65px;
 }

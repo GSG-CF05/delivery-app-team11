@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Readex+Pro&family=Source+Code+Pro:wght@500&display=swap");
+
+* {
+    box-sizing : border-box;
+    font-family: "Readex Pro";
+}
+
+.good-morning {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.good-morning h2 {
+    padding-left: 10px;
+}
+
+.location {
+    padding-left: 10px;
+}
+
+.loc-icon {
+    height  : 20px;
+    width   : 20px;
+    position: relative;
+}
+
+.loc {
+    position : relative;
+    font-size: 17px;
+    color    : #8e8e93;
+}

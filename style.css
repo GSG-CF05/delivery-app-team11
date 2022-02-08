@@ -57,10 +57,11 @@ height: 24px;
     background-color: #E4F3F7;
 }
 
-.tabs a:hover{
+#active{
     background-color:#54B2CF ;
     color: #FFFFFF;
 }
+
 
 .containeer{
     display: flex;

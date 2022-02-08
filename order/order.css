@@ -121,6 +121,7 @@ padding: 0%;*/
 }
 .amount1 {
   display: inline-block;
+  height: 11vh;
   /*width: 25px;*/
   /*margin-right: -10%;*/
 }
@@ -169,6 +170,22 @@ padding: 0%;*/
   width: 37px;
   margin-top: -10px;
 }
+.short {
+  font-family: "Readex Pro", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+  background: #3cd2d2;
+  border-radius: 48px;
+  color: #ffffff;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 300;
+  width: 37px;
+  margin-top: -10px;
+}
 .price1 {
   font-family: Readex Pro;
   font-style: normal;
@@ -181,4 +198,5 @@ padding: 0%;*/
   left: 0px;
   top: 62px;
   margin-top: -5px;
+  display: inline;
 }

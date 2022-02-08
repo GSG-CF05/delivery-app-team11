@@ -40,6 +40,9 @@ padding: 0%;*/
   height: 81px;
   left: 24px;
   top: 118px;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
   white-space: nowrap;
 }
 .discount1 {

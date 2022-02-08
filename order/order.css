@@ -50,6 +50,7 @@ padding: 0%;*/
   top: 118px;
   background: #54b2cf;
   border-radius: 16px;
+  white-space: nowrap;
 }
 .dis-1-title {
   font-family: "Readex Pro", sans-serif;
@@ -97,4 +98,80 @@ padding: 0%;*/
   line-height: 25px;
   color: #ffffff;
   text-align: center;
+}
+
+.coffee-latte {
+  padding-top: 10%;
+}
+.pictures {
+  background: #e4f3f7;
+  border-radius: 10px;
+  width: 30%;
+  display: inline-block;
+}
+.latte {
+  width: 70%;
+  height: auto;
+  display: inline-block;
+  /*padding: 1%;
+  padding-right: 5%;*/
+  /*margin-right: 20px;*/
+}
+.amount1 {
+  display: inline-block;
+  width: 25%;
+  /*margin-right: -10%;*/
+}
+.coffee-latte-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  display: inline-block;
+  margin-left: 5%;
+}
+.coffee-latte-title {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.7rem;
+  line-height: 20px;
+  margin-bottom: -15px;
+}
+.Milk-and-espresso {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.65rem;
+  line-height: 18px;
+  color: #8e8e93;
+  padding-top: -10px;
+}
+.tall {
+  font-family: "Readex Pro", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+  background: #54b2cf;
+  border-radius: 48px;
+  color: #ffffff;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 300;
+  width: 37px;
+  margin-top: -10px;
+}
+.price1 {
+  font-family: Readex Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #323232;
+  width: 68px;
+  height: 30px;
+  left: 0px;
+  top: 62px;
+  margin-top: -5px;
 }

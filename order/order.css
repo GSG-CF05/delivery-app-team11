@@ -102,32 +102,39 @@ padding: 0%;*/
 
 .coffee-latte {
   padding-top: 10%;
+  display: inline-flex;
 }
 .pictures {
   background: #e4f3f7;
-  border-radius: 10px;
-  width: 30%;
+  border-radius: 16px;
   display: inline-block;
+  height: 100px;
 }
 .latte {
-  width: 70%;
-  height: auto;
+  width: 88px;
+  /*height: auto;*/
   display: inline-block;
+  align-items: center;
   /*padding: 1%;
-  padding-right: 5%;*/
-  /*margin-right: 20px;*/
+  padding-right: 5%;
+  margin-right: 20px;*/
 }
 .amount1 {
   display: inline-block;
-  width: 25%;
+  /*width: 25px;*/
   /*margin-right: -10%;*/
 }
+/*.amountpic {
+  margin-left: 70%;
+}*/
 .coffee-latte-details {
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-start;*/
   display: inline-block;
   margin-left: 5%;
+  width: 230px;
+  margin-top: -10px;
 }
 .coffee-latte-title {
   font-family: "Readex Pro", sans-serif;

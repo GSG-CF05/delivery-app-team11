@@ -238,3 +238,34 @@ hr {
   display: inline-block;
   margin-left: 70%;
 }
+footer {
+  display: inline-flex;
+  justify-content: space-between;
+}
+.add {
+  background: #54b2cf;
+  border-radius: 85.3333px;
+  display: inline-block;
+  margin-top: 10px;
+  left: 6.4%;
+  right: 76.53%;
+  top: 88.18%;
+  bottom: 3.94%;
+  padding: 10px;
+}
+.checkout {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  background: black;
+  font-size: 17px;
+  color: white;
+  border-radius: 64px;
+  display: inline-block;
+  margin-top: 10px;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-right: 25%;
+  padding-left: 25%;
+  margin-left: 140px;
+}

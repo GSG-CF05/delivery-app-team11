@@ -5,31 +5,35 @@
     font-family: "Readex Pro";
 }
 
-.good-morning {
-    display        : flex;
+.header-home {
+    display: flex;
+    margin: 10px 10px;
+    justify-content: space-around;
+}
+.image-header {
+    display: flex;
     justify-content: space-between;
-}
+    margin: 31px 5px;
+    height: 64px;
+    width: 50px;
+    border-radius: 0px;
 
-.good-morning h2 {
-    padding-left: 10px;
 }
-
-.location {
-    padding-left: 10px;
+.loc-icon{
+    width: 24px;
+height: 24px;
 }
-
-.loc-icon {
-    height  : 20px;
-    width   : 20px;
-    position: relative;
+.title-header h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #323232;
 }
-
-.loc {
-    position : relative;
+.title-header span{
+    color: #8E8E93;
     font-size: 17px;
-    color    : #8e8e93;
+    float: right;
+    position: absolute;
 }
-
 /* tabs */
 .tabs{
     display:flex;

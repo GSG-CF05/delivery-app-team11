@@ -200,3 +200,21 @@ padding: 0%;*/
   margin-top: -5px;
   display: inline;
 }
+.grande{
+    font-family: "Readex Pro", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    background: #B88AF8;
+    border-radius: 48px;
+    color: #ffffff;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 300;
+    width: 37px;
+    margin-top: -10px;
+  }
+
+}

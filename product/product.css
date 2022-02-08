@@ -8,9 +8,15 @@
   height: 100vh;
 }
 .main-imge {
-  background-image: url(../imges/Product\ Image.png);
+  background-image: url(../image/Background.png);
   width: 426px;
   height: 406px;
+  display: flex;
+  justify-content: space-between;
+}
+.coffe {
+  align-self: center;
+  width: 350px;
 }
 .product-img {
   width: 426px;
@@ -20,14 +26,13 @@
 .amount {
   width: 40px;
   height: 120px;
-  margin-left: 70%;
   margin-top: 35%;
 }
 .back {
   width: 32px;
   height: 32px;
   margin-top: 10%;
-  margin-left: 7%;
+  margin-left: 1%;
 }
 /* start product-details */
 .product-details {

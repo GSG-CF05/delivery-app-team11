@@ -339,6 +339,7 @@ footer {
   }
   .checkout {
     margin-left: 500px;
-    padding: -20px;
+    padding-top: 3%;
+    padding-bottom: 3%;
   }
 }

@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Readex+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Readex+Pro:wght@200;400&display=swap");
+html {
+  font-size: 20px;
+}
+body {
+  margin: auto;
+  width: 90%;
+  height: 120vh;
+}
+header {
+  display: flex;
+  /*flex-direction: row;*/
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10%;
+  padding-left: 10%;
+  width: 80%;
+  height: 5vh;
+}
+.backicon {
+  display: inline;
+  /*width: 6px;
+  height: 12px;*/
+}
+.titlepage {
+  /*justify-content: space-around;*/
+  /*display: flex;
+flex-direction: column;*/
+  /*text-align: center;
+align-items: center;
+padding: 0%;*/
+  padding-left: 27%;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Readex Pro", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 81px;
+  left: 24px;
+  top: 118px;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.discount1 {
+  display: inline-block;
+  width: 306px;
+  height: 81px;
+  left: 24px;
+  top: 118px;
+  background: #54b2cf;
+  border-radius: 16px;
+  white-space: nowrap;
+}
+.dis-1-title {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+  /*padding-top: 5%;*/
+}
+.dis-1-details {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.5rem;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+.discount2 {
+  display: inline-block;
+  width: 306px;
+  height: 81px;
+  left: 24px;
+  top: 118px;
+  background: #b88af8;
+  border-radius: 16px;
+}
+.dis-2-title {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+  /*padding-top: 5%;*/
+}
+.dis-2-details {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.5rem;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.coffee-latte {
+  padding-top: 10%;
+  display: inline-flex;
+}
+.pictures {
+  background: #e4f3f7;
+  border-radius: 16px;
+  display: inline-block;
+  height: 100px;
+}
+.latte {
+  width: 88px;
+  /*height: auto;*/
+  display: inline-block;
+  align-items: center;
+  /*padding: 1%;
+  padding-right: 5%;
+  margin-right: 20px;*/
+}
+.amount1 {
+  display: inline-block;
+  height: 11vh;
+  /*width: 25px;*/
+  /*margin-right: -10%;*/
+}
+/*.amountpic {
+  margin-left: 70%;
+}*/
+.coffee-latte-details {
+  /*display: flex;
+  flex-direction: column;
+  align-items: flex-start;*/
+  display: inline-block;
+  margin-left: 5%;
+  width: 230px;
+  margin-top: -10px;
+}
+.coffee-latte-title {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.7rem;
+  line-height: 20px;
+  margin-bottom: -15px;
+}
+.Milk-and-espresso {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.65rem;
+  line-height: 18px;
+  color: #8e8e93;
+  padding-top: -10px;
+}
+.tall {
+  font-family: "Readex Pro", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+  background: #54b2cf;
+  border-radius: 48px;
+  color: #ffffff;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 300;
+  width: 37px;
+  margin-top: -10px;
+}
+.short {
+  font-family: "Readex Pro", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+  background: #3cd2d2;
+  border-radius: 48px;
+  color: #ffffff;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 300;
+  width: 37px;
+  margin-top: -10px;
+}
+.price1 {
+  font-family: Readex Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #323232;
+  width: 68px;
+  height: 30px;
+  left: 0px;
+  top: 62px;
+  margin-top: -5px;
+  display: inline;
+}
+.grande {
+  font-family: "Readex Pro", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+  background: #b88af8;
+  border-radius: 48px;
+  color: #ffffff;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 300;
+  width: 37px;
+  margin-top: -10px;
+}
+hr {
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+}
+.totalnumber {
+  margin-top: 15px;
+}
+.total {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  display: inline-block;
+}
+.number {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  margin-left: 70%;
+}
+footer {
+  display: inline-flex;
+  justify-content: space-between;
+}
+.add {
+  background: #54b2cf;
+  border-radius: 85.3333px;
+  display: inline-block;
+  margin-top: 10px;
+  left: 6.4%;
+  right: 76.53%;
+  top: 88.18%;
+  bottom: 3.94%;
+  padding: 10px;
+}
+.checkout {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  background: black;
+  font-size: 17px;
+  color: white;
+  border-radius: 64px;
+  display: inline-block;
+  margin-top: 10px;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-right: 25%;
+  padding-left: 25%;
+  margin-left: 140px;
+}
+@media screen and (min-width: 1024px) {
+  body {
+    width: 100%;
+    margin-left: 40px;
+  }
+  .titlepage {
+    padding-right: 40px;
+    font-size: 2rem;
+  }
+  .backicon {
+    width: 50px;
+    height: 50px;
+  }
+  .container {
+    margin-top: 40px;
+    width: 100%;
+    height: 120px;
+    margin-left: 35px;
+  }
+  .discount1 {
+    width: 40%;
+    padding-bottom: 10px;
+  }
+  .discount2 {
+    width: 40%;
+    padding-bottom: 10px;
+  }
+  .dis-1-title {
+    font-size: 30px;
+  }
+  .dis-1-details {
+    font-size: 16px;
+  }
+  .dis-2-title {
+    font-size: 30px;
+  }
+  .dis-2-details {
+    font-size: 16px;
+  }
+  .coffee-latte {
+    display: flexs;
+    margin-left: 40px;
+    width: 80%;
+    margin-top: -30px;
+  }
+  .amount1 {
+    margin-left: 400px;
+    height: 19vh;
+  }
+  hr {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .total {
+    margin-left: 40px;
+    font-size: 25px;
+  }
+  .number {
+    font-size: 25px;
+    margin-left: 700px;
+  }
+  .add {
+    margin-top: 10px;
+    margin-left: 35px;
+  }
+  .checkout {
+    margin-left: 500px;
+    padding: -20px;
+  }
+}

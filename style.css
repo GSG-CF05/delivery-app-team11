@@ -114,3 +114,35 @@ span{
     display: flex;
     gap: 1.9rem;
   }
+
+/*tablet size*/
+  @media screen and (min-width: 768px) and (max-width: 1023px){
+    .containeer{
+        width: 100%;
+    }
+    .header-home{
+      margin : 0px 20px;
+      justify-content:space-between;
+    }
+    .tabs{
+      padding: 1.2rem 2rem;
+    }
+    .product-card{
+        width:30%;
+    }
+}
+
+/*Desktop size*/
+
+@media screen and (min-width: 1024px){
+    .header-home{
+        margin : 0px 20px;
+        justify-content:space-between;
+      }
+    .product-card{
+        width: 30%;
+    }
+    .navigation{
+        padding: 5.5rem 3rem 2rem 3rem;
+    }
+  }

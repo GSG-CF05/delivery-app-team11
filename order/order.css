@@ -224,7 +224,7 @@ hr {
   border-radius: 10px;
 }
 .totalnumber {
-  margin-top: -15px;
+  margin-top: 15px;
 }
 .total {
   font-family: "Readex Pro", sans-serif;
@@ -272,29 +272,33 @@ footer {
   padding-left: 25%;
   margin-left: 140px;
 }
+
 @media screen and (min-width: 1024px) {
   body {
     width: 100%;
     margin-left: 40px;
   }
+  header {
+    margin-top: -70px;
+  }
   .titlepage {
     padding-right: 40px;
-    font-size: 1.5rem;
-    padding-top: 30px;
+    font-size: 25px;
   }
   .backicon {
     width: 50px;
     height: 50px;
   }
   .container {
-    margin-top: 10px;
-    width: 100%;
+    margin-top: 30px;
+    width: 80%;
     height: 120px;
     margin-left: 35px;
   }
   .discount1 {
     width: 40%;
     padding-bottom: 10px;
+    margin-left: 70px;
   }
   .discount2 {
     width: 40%;
@@ -313,17 +317,17 @@ footer {
     font-size: 16px;
   }
   .coffee-latte {
-    /*display: flexs;
+    display: flexs;
     margin-left: 40px;
-    width: 80%;*/
-    /*margin-top: -50px;*/
+    /*width: 80%;*/
+    margin-top: -90px;
   }
   .main {
-    margin-top: -50px;
+    width: 90%;
+    padding-left: 75px;
   }
-  /*  }
   .amount1 {
-    margin-left: 400px;
+    /*margin-left: 400px;*/
     height: 19vh;
   }
   hr {
@@ -337,7 +341,7 @@ footer {
   .number {
     font-size: 25px;
     margin-left: 700px;
-  }*/
+  }
   .add {
     margin-top: 10px;
     margin-left: 35px;

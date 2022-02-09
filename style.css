@@ -114,3 +114,52 @@ span{
     display: flex;
     gap: 1.9rem;
   }
+
+/*tablet size*/
+  @media screen and (min-width: 768px) and (max-width: 1023px){
+    .containeer{
+        width: 100%;
+    }
+    .header-home{
+      margin : 0px 20px;
+      justify-content:space-between;
+    }
+    .tabs{
+      justify-content: center;
+      padding: 1.2rem;
+      
+
+    }
+    .tabs a{
+        font-size: 1rem;
+    }
+    .product-card{
+        width:45%;
+    }
+}
+
+/*Desktop size*/
+
+@media screen and (min-width: 1024px){
+    .header-home{
+        margin : 0px 20px;
+        justify-content:space-between;
+      }
+    .product-card{
+        width: 45%;
+        
+
+    }
+    .tabs{
+        justify-content: center;
+        padding: 1.2rem;
+        
+  
+      }
+      .tabs a{
+          font-size: 1rem;
+      }
+    .navigation{
+        padding: 5.5rem 3rem 2rem 3rem;
+    }
+  }

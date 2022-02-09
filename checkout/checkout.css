@@ -166,5 +166,75 @@ padding: 0%;*/
     align-items: center;
    
 }
+.add-Payment{
+  margin-top: -120px;
+  width: 90;
+  height: 90;
+  justify-content: flex-start;
+  align-items: center;
+}
+.plus{
+ display: inline;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.credits{
+  display: flex;
+  /*flex-direction: row;*/
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: -60px;
 
+}
+.credit-1{
+  background-color: #323232;
+  width: 240px;
+  height: 170px;
+  border-radius:20px ;
+  align-items: center;
+  display: table-row;
+}
+.credit-1-icon{
+  display: inline;
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 160px;
+}
+.credit-1-text-1{
+  color: rgb(255 255 255);
+  font-size: 48px;
+  margin-left: 50px;
+  margin-top: 16px;
+  padding-top: 10%;
 
+}
+
+.credit-1-text-2{
+  color: rgb(255 255 255);
+    font-size: 26px;
+    margin-left: 110px;
+    margin-top: -54px;
+    padding-top: 10%;
+}
+.checkbox-info{
+
+  width: 1.5em;
+  height: 1.5em; 
+  accent-color: rgb(255, 255, 255);
+}
+.credit-1-checkbox{
+margin-left: 180px;
+  margin-top: -55px;
+  padding-top: 10%;
+}
+.credit-2{
+  background-color: #1434cb;
+  width: 240px;
+  height: 170px;
+  border-radius:20px ;
+  align-items: center;
+  display: table-row;
+  margin-left: 30px;
+}

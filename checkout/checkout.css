@@ -238,3 +238,106 @@ margin-left: 180px;
   display: table-row;
   margin-left: 30px;
 }
+.promocode{
+  border-style: groove;
+    width: 367px;
+    height: 70px;
+    margin-left: -4px;
+    margin-top: 10px;
+    border-radius: 23px;
+    align-items: center;
+    display: table-row;
+}
+
+.Code-Add {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  color: #54B2CF;
+  text-align: center;
+  padding-top: 3%;
+  margin-top: -30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.Your-code-here {
+    font-family: "Readex Pro", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #8E8E93;
+    text-align: center;
+    padding-top: 3%;
+    margin-top: -30px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .cost-1{
+    padding-left: 40%;
+    font-size: 24px;
+    font-family: "Readex Pro";
+    font-weight: 100;
+  }
+  .cost-2{
+    padding-left: 45%;
+    font-size: 24px;
+    font-family: "Readex Pro";
+    font-weight: 100;
+  }
+  .cost-text-2{
+    margin-top: -134px;
+    width: auto;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .hr-1{
+    height: 53px;
+    text-align: left;
+    margin-left: 7px;
+    margin-top: -29px;
+    margin-right: 15px;
+  }
+  .hr-2{
+    height: 53px;
+    text-align: left;
+    margin-left: 0;
+    margin-top: -29px;
+  }
+  .hr-3{
+    width:100%;
+    text-align:left;
+    margin-left:0;
+    margin-top: -38px;
+  }
+  .total{
+    margin-top: -89px;
+    width: auto;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .total-cost{
+    padding-left: 53%;
+    font-size: 24px;
+    
+    font-family: "Readex Pro";
+    font-weight: bold;
+  }
+.button{
+  background-color: #323232;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 280px;
+  margin-left: 32px;
+  margin-top: -13px;
+  height: 72px;
+}

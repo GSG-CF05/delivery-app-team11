@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Readex+Pro&family=Source+Code+Pro:wght@500&display=swap");
+
+* {
+    box-sizing : border-box;
+    font-family: "Readex Pro";
+}
+
+.header-home {
+    display: flex;
+    margin: 10px 10px;
+    justify-content: space-around;
+}
+.image-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 31px 5px;
+    height: 64px;
+    width: 50px;
+    border-radius: 0px;
+
+}
+.loc-icon{
+    width: 24px;
+height: 24px;
+}
+.title-header h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #323232;
+}
+.title-header span{
+    color: #8E8E93;
+    font-size: 17px;
+    float: right;
+    position: absolute;
+}
+ /* tabs */
+ .tab{
+    overflow-x:auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.tabs{
+    display:flex;
+    gap: 10px;
+    padding: 1.2rem .5rem;
+}
+
+.tabs a{
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    min-width: 100px ;
+    padding: 0.5rem ;
+    font-size: .8rem;
+    color: #54B2CF;
+    background-color: #E4F3F7;
+}
+
+#active{
+    background-color:#54B2CF ;
+    color: #FFFFFF;
+}
+
+
+.containeer{
+    display: flex;
+    gap: 17px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+span{
+    float: right;
+}
+
+.product-card{
+    padding: 20px;
+    background-color: #E4F3F7;
+    width: 45%;
+    border-radius: 16px;
+    justify-content: center;
+}
+
+.add-btn{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border-radius: 50%;
+    border-width: 0px;
+    width: 24px;
+    height: 24px;
+    background-color:#54B2CF ;
+    
+}
+
+/* navbar */
+.navigation {
+    list-style: none;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: 1rem 3.5rem;
+  }
+ 
+  
+  .navigation ul li {
+      list-style: none;
+    display: flex;
+    gap: 1.9rem;
+  }

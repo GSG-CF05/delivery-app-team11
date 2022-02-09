@@ -279,14 +279,15 @@ footer {
   }
   .titlepage {
     padding-right: 40px;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding-top: 30px;
   }
   .backicon {
     width: 50px;
     height: 50px;
   }
   .container {
-    margin-top: 40px;
+    margin-top: 10px;
     width: 100%;
     height: 120px;
     margin-left: 35px;
@@ -312,11 +313,15 @@ footer {
     font-size: 16px;
   }
   .coffee-latte {
-    display: flexs;
+    /*display: flexs;
     margin-left: 40px;
-    width: 80%;
-    margin-top: -30px;
+    width: 80%;*/
+    /*margin-top: -50px;*/
   }
+  .main {
+    margin-top: -50px;
+  }
+  /*  }
   .amount1 {
     margin-left: 400px;
     height: 19vh;
@@ -332,7 +337,7 @@ footer {
   .number {
     font-size: 25px;
     margin-left: 700px;
-  }
+  }*/
   .add {
     margin-top: 10px;
     margin-left: 35px;
